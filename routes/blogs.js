@@ -1,6 +1,7 @@
 var express = require('express')
 var router = express.Router();
-const Blog = ('../models/blog.js');
+// const Blog = ('../models/blog.js');
+ const Blog = require('../models/blog')
 
 router.get('/', (req, res, next) => {
     // res.render('blogs')
